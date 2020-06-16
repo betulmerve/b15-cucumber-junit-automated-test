@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.company.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.261 s <<< FAILURE! - in com.company.runners.CukesRunner
+com.company.runners.CukesRunner.initializationError  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.annotation.AnnotationTypeMismatchException: Incorrectly typed data found for annotation element public abstract java.lang.String[] io.cucumber.junit.CucumberOptions.tags() (Found data of type class java.lang.String[@demo])
+

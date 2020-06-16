@@ -1,0 +1,53 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-16T18:59:04.299Z",
+        "line": 4,
+        "name": "Go to app",
+        "description": "",
+        "id": "demo-the-automation;go-to-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5492013000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to the application",
+            "match": {
+              "location": "com.company.step_definitions.DemoStepDefs.i_go_to_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144770000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "it should be there",
+            "match": {
+              "location": "com.company.step_definitions.DemoStepDefs.it_should_be_there()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo"
+          }
+        ]
+      }
+    ],
+    "name": "Demo the automation",
+    "description": "",
+    "id": "demo-the-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Demo.feature",
+    "tags": []
+  }
+]
